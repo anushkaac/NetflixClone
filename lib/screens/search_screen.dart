@@ -81,7 +81,7 @@ class _SearchScreenState extends State<SearchScreen> {
                     subtitle: Text(
                       movie['summary'] != null
                           ? movie['summary']
-                              .replaceAll(RegExp(r'<[^>]*>'), '') // Remove HTML tags
+                              .replaceAll(RegExp(r'<[^>]*>'), '') 
                           : 'No Summary Available',
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
