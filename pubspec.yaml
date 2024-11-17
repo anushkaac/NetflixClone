@@ -1,0 +1,23 @@
+name: flutter_test_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if publishing the package
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/splash_image.png
