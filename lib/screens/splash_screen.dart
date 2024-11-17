@@ -9,19 +9,19 @@ class SplashScreen extends StatelessWidget {
 
     return Scaffold(
       backgroundColor: Colors.black,
-      body: Center( // Ensures the column is centered both vertically and horizontally
+      body: Center( 
         child: Column(
-          mainAxisSize: MainAxisSize.min, // Prevents the column from taking up all vertical space
+          mainAxisSize: MainAxisSize.min, 
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'lib/assets/splash_image.png', // Add your splash image
+              'lib/assets/splash_image.png', 
               width: 150,
               height: 150,
             ),
             SizedBox(height: 20),
             CircularProgressIndicator(
-              color: Colors.red, // Netflix-like red accent
+              color: Colors.red, 
             ),
           ],
         ),
