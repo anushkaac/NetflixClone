@@ -59,8 +59,8 @@ class DetailsScreen extends StatelessWidget {
   onPressed: () {},
   child: Text('Add to Watchlist'),
   style: OutlinedButton.styleFrom(
-    side: BorderSide(color: Colors.white), // Border color
-    foregroundColor: Colors.white,        // Text and icon color
+    side: BorderSide(color: Colors.white), 
+    foregroundColor: Colors.white,        
   ),
 ),
 
