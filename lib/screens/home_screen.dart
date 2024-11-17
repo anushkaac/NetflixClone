@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'dart:math';
 
-// Import the SearchScreen
+
 import 'package:flutter_test_app/screens/search_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -31,7 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
       if (response.statusCode == 200) {
         final data = json.decode(response.body);
 
-        // Shuffle the shows for random distribution
+       
         data.shuffle(Random());
 
         setState(() {
